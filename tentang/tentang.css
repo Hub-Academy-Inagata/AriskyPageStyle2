@@ -166,8 +166,6 @@ body{
     height: 650px;
     background: rgba(233, 239, 255, 0.8);
     background-repeat: no-repeat;
-    background-image: url(images/beranda-kiri.png);
-    background-position: left top;
 }
 
 .guru .container{
