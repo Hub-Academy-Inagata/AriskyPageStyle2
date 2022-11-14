@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.btn-ppob{
+    border: 2px solid #ffffff;
+    line-height: 15px;
+    border-radius: 30px;
+}
+
+.navbar{
+    background-color: #734192;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.navbar .container .navbar-collapse .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.banner{
+    height: 850px;
+    background-image: url(../images/banner-dasar.png), url(../images/ban-art1.png), url(../images/ban-art2.png);
+    background-position: top center, top right, top right;
+    background-repeat: no-repeat;
+}
+
+.banner .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.banner .container .banner-caption h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 72px;
+    font-family: rounded bold;
+}
+
+.banner .container .banner-caption p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.btn-gotong{
+    background: #AE39FF;
+    border-radius: 24px;
+}
+
+.gotong{
+    margin: 150px 0 50px 0;
+}
+
+.gotong .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gotong .container .gotong-img img:hover{
+    transform: scale(1.1);
+}
+
+.gotong .container .gotong-caption{
+    margin-left: 30px;
+}
+
+.gotong .container .gotong-caption a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.gotong .container .gotong-caption h6 a:hover{
+    background: #734192;
+}
+
+.gotong .container .gotong-caption h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #1C2661;
+}
+
+.gotong .container .gotong-caption h2:hover{
+    color: #734192;
+    cursor: pointer;
+}
+
+.gotong .container .gotong-caption h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3A3B41;
+}
+
+.gotong .container .gotong-caption h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A3B41;
+}
+
+.gotong .container .gotong-caption p a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4FACF6;
+    text-decoration: none;
+}
+
+.gotong .container .gotong-caption p a:hover{
+    color: #AE39FF;
+    cursor: pointer;
+}
+
+.artikel .container .row .col img{
+    padding: 10px;
+}
+
+.artikel .container .row .col .carda img:hover{
+    transform: scale(1.1);
+}
+
+.artikel .container .row .col .carda .card-body a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.artikel .container .row .col .carda .card-body h5{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1C2661;
+    margin-bottom: 15px;
+}
+
+.artikel .container .row .col .carda .card-body h5:hover{
+    cursor: pointer;
+    color: #734192;
+}
+
+.artikel .container .row .col .carda .card-body p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #3A3B41;
+
+}
+
+.artikel .container .row .col .carda .card-footer h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4FACF6;
+    margin-top: 20px;
+}
+
+.artikel .container .row .col .carda .card-footer h6:hover{
+    cursor: pointer;
+    color: #734192;
+}
+
+.btn-artikel{
+    background: #AE39FF;
+    border-radius: 24px;
+    margin: 20px 0;
+}
+
+.artikel .container .row .col .carda .card-body a:hover{
+    background: #734192;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.footer1 .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 .container .row h4{
+    font-family: rounded bold;
+    color: #1C2661;
+    font-weight: 600;
+}
+
+.footer1 .container .row .inagata img{
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .informasi a{
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi a:hover{
+    color: #AE39FF;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .tentangf a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .tentangf a:hover{
+    color: #AE39FF;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .ikuti{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .ikuti a{
+    text-decoration: none;
+    color: #1C2661;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .ikuti a span{
+    color: #404040;
+}
+
+.footer1 .container .row .ikuti a span:hover{
+    color: #AE39FF;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .copy p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 767px){
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
