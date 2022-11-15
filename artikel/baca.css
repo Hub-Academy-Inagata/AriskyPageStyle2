@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.btn-ppob{
+    border: 2px solid #ffffff;
+    line-height: 15px;
+    border-radius: 30px;
+}
+
+.navbar{
+    background-color: #734192;
+}
+
+.navbar-toggler {
+    border: 2px solid #ffffff;
+}
+
+.navbar .container .navbar-collapse .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.banner{
+    height: 850px;
+    background-image: url(../images/banner-dasar.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.banner .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.banner .container img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.caption{
+    margin-bottom: 100px;
+}
+
+.btn-baca{
+    background: #AE39FF;
+    border-radius: 24px;
+    margin: 100px 0 20px 0;
+    color: #ffffff;
+}
+
+.caption .container a:hover{
+    background: #734192;
+    color: #ffffff;
+}
+
+.caption .container h2{
+    font-family: rounded bold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #1C2661;
+}
+
+.caption .container h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: justify;
+    color: #3A3B41;
+    margin-bottom: 20px;
+}
+
+.caption .container p{
+    text-align: justify;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.footer1 .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 .container .row h4{
+    font-family: 'Poppins';
+    color: #1C2661;
+    font-weight: 600;
+}
+
+.footer1 .container .row .inagata img{
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .informasi a{
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi a:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .tentangf a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .tentangf a:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .ikuti{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .ikuti a{
+    text-decoration: none;
+    color: #1C2661;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .ikuti a span{
+    color: #404040;
+}
+
+.footer1 .container .row .ikuti a span:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .copy p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+}
+
+
+
+
+/* media queries */
+@media only screen and (max-width: 767px){
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+
+
