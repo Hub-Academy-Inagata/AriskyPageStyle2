@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+.btn-ppob{
+    border: 2px solid #ffffff;
+    line-height: 15px;
+    border-radius: 30px;
+}
+
+.navbar{
+    background-color: #734192;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.navbar .container .navbar-collapse .navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+
+.navbar .container .navbar-collapse .navbar-nav .nav-item a:hover{
+    border-bottom: 2px solid #ffffff;
+}
+
+.banner{
+    height: 850px;
+    background-image: url(../images/banner-dasar.png), url(../images/ban-ktk1.png), url(../images/ban-ktk2.png);
+    background-repeat: no-repeat;
+    background-position: top center, top left, top right;
+}
+
+.banner .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.banner .container .banner-caption h2{
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 72px;
+    font-family: rounded bold;
+}
+
+.banner .container .banner-caption p{
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+.kontak .container{
+    margin: 100px auto;
+    padding: 30px;
+}
+
+.kontak .container h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #4FACF6;
+}
+
+.kontak .container h2{
+    font-family: rounded bold;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: #1C2661;
+    text-align: center;
+}
+
+.kontak .container h4{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3A3B41;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.kontak .container .row .detail .telp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.kontak .container .row .detail .telp .gambar-telp img{
+    width: 70px;
+}
+
+.kontak .container .row .detail .telp .text-telp p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.kontak .container .row .detail .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 20px 0;
+}
+
+.kontak .container .row .detail .email .gambar-email img{
+    width: 70px;
+}
+
+.kontak .container .row .detail .email .text-email p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.kontak .container .row .detail .lokasi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.kontak .container .row .detail .lokasi .gambar-lokasi img{
+    width: 70px;
+}
+
+.kontak .container .row .detail .lokasi .text-lokasi p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.d-grid .btn{
+    margin-top: 30px;
+    color: #ffffff;
+    border-radius: 20px;
+    background: #AE39FF;
+}
+
+.d-grid .btn:hover{
+    background: #734192;
+    color: #ffffff;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.footer1 .container{
+    display: flex;
+    justify-content: center;
+}
+
+.footer1 .container .row h4{
+    font-family: rounded bold;
+    color: #1C2661;
+    font-weight: 600;
+}
+
+.footer1 .container .row .inagata img{
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .informasi a{
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .informasi a:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .tentangf a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #404040;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .tentangf a:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .row .ikuti{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1 .container .row .ikuti a{
+    text-decoration: none;
+    color: #1C2661;
+    margin-bottom: 10px;
+}
+
+.footer1 .container .row .ikuti a span{
+    color: #404040;
+}
+
+.footer1 .container .row .ikuti a span:hover{
+    color: #734192;
+    letter-spacing: 1px;
+}
+
+.footer1 .container .copy p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #404040;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
