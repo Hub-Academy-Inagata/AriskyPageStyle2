@@ -354,14 +354,254 @@ footer{
 }
 
 
+
 /* media queries */
 @media only screen and (max-width: 767px){
-    
-}
+    .banner{
+        background-image: url(../images/banner-dasar.png), url(../images/ban-tnt1.png), url(../images/ban-tnt2.png);
+        background-repeat: no-repeat;
+        background-position: top center, left top, top right;
+        background-size: 300%, 40%, 40%;
+    }
 
+    .banner .container{
+        flex-direction: column;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .sekolah{
+        padding: 100px 10px;
+    }
+
+    .sekolah .sekolah-caption{
+        margin: 10px;
+    }
+
+    .sekolah .container .sekolah-caption h5{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .sekolah .container .sekolah-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .sekolah .container .sekolah-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .keunggulan{
+        padding: 50px 10px;
+    }
+
+    .keunggulan .container .judul h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .keunggulan .container .judul h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .keunggulan .container .isi{
+        flex-direction: column;
+    }
+
+    .keunggulan .container .isi .content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .keunggulan .container .isi .content h3{
+        font-size: 24px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+
+    .keunggulan .container .isi .content p{
+        font-size: 16px;
+        line-height: 18px;
+        padding-right: 0;
+    }
+
+    .guru{
+        height: 1000px;
+        background: rgba(233, 239, 255, 0.8);
+        background-repeat: no-repeat;
+    }
+
+    .guru .container{
+        padding: 10px;
+    }
+
+    .guru .container h2{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .guru .container .content{
+        flex-direction: column;
+    }
+
+    .guru .container .row h5{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .guru .container .row a{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .guru .container .content .card-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .guru .container .content .card-box img{
+        width: 50%;
+    }
+
+    .guru .container .content .card-box .card-body{
+        margin-left: 10px;
+    }
+
+    .guru .container .content .card-box .card-body h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .guru .container .content .card-box .card-body p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .video{
+        padding: 100px 10px;
+    }
+
+    .video .container .judul p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .video .container .judul h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    
+    .banner .container img{
+        width: 80%;
+    }
+
+    .sekolah .container .sekolah-caption h5{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .sekolah .container .sekolah-caption h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .sekolah .container .sekolah-caption p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .keunggulan{
+        padding: 50px 10px;
+    }
+
+    .keunggulan .container .judul h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .keunggulan .container .judul h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .keunggulan .container .isi .content{
+        justify-content: center;
+        align-items: flex-start;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .keunggulan .container .isi .content h3{
+        font-size: 20px;
+        line-height: 24px;
+        padding-right: 0;
+    }
+
+    .keunggulan .container .isi .content p{
+        font-size: 16px;
+        line-height: 16px;
+        padding-right: 10px;
+    }
+
+    .guru{
+        height: 500px;
+        background: rgba(233, 239, 255, 0.8);
+        background-repeat: no-repeat;
+    }
+
+    .guru .container h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .guru .container .row h5{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .guru .container .row a{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .guru .container .content .card-box .card-body h5{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .guru .container .content .card-box .card-body p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .video .container .judul p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .video .container .judul h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
 }
+
+
 
 
