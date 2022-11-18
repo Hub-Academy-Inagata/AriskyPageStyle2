@@ -101,7 +101,8 @@ body{
 }
 
 .gotong .container .gotong-caption h6 a:hover{
-    background: #734192;
+    border: 2px solid #AE39FF;
+    color: #1C2661;
 }
 
 .gotong .container .gotong-caption h2{
@@ -200,7 +201,8 @@ body{
 }
 
 .artikel .container .row .col .carda .card-body a:hover{
-    background: #734192;
+    border: 2px solid #AE39FF;
+    color: #1C2661;
 }
 
 footer{
@@ -281,11 +283,79 @@ footer{
 
 /* media queries */
 @media only screen and (max-width: 767px){
+    .banner{
+        background-image: url(../images/banner-dasar.png), url(../images/ban-art1.png), url(../images/ban-art2.png);
+        background-position: top center, top right, top right;
+        background-repeat: no-repeat;
+        background-size: 400%, 50%, 50%;
+    }
+
+    .banner .container{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .col-5{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     
+    .gotong .container{
+        flex-direction: column;
+    }
+
+    .gotong .container .gotong-img img{
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .gotong .container .gotong-caption{
+        margin-left: 0;
+    }
+
+    .gotong .container .gotong-caption h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .gotong .container .gotong-caption h4{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gotong .container .gotong-caption h5{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .artikel .container .row .col .carda .card-body h5{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .artikel .container .row .col .carda .card-body p{
+        font-size: 16px;
+        line-height: 18px;
+    }
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    
+    .banner{
+        height: 500px;
+        background-image: url(../images/banner-dasar.png), url(../images/ban-art1.png), url(../images/ban-art2.png);
+        background-position: top center, top right, top right;
+        background-repeat: no-repeat;
+        background-size: 100%, 50%, 50%;
+    }
+
+    .banner .container img{
+        width: 80%;
+    }
 }
 
