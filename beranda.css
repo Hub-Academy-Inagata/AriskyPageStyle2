@@ -45,7 +45,7 @@ body{
 }
 
 .banner{
-    height: 900px;
+    height: 850px;
     background-image: url(images/banner-dasar.png), url(images/ban-bnd1.png), url(images/ban-bnd2.png);
     background-repeat: no-repeat;
     background-position: top center, left bottom, top right;
@@ -144,8 +144,6 @@ body{
 .tentang .container{
     display: flex;
     flex-direction: row;
-    background-image: url(images/Rectangle2.png);  
-    background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
 }
@@ -535,7 +533,7 @@ footer{
 @media only screen and (min-width: 768px) and (max-width: 991px){
     .banner{
         height: 700px;
-        background-size: 150%, 30%, 50%;
+        background-size: 150%, 50%, 50%;
     }
     
     .banner .container img{
