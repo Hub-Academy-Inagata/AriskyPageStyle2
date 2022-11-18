@@ -256,11 +256,6 @@ body{
     padding: 100px 0;
 }
 
-.artikel .container{
-    background-image: url(images/SegitigaArtikel.png);
-    background-repeat: no-repeat;
-}
-
 .artikel .container .row{
     margin-top: 20px;
 }
@@ -394,10 +389,287 @@ footer{
 
 /* media queries */
 @media only screen and (max-width: 767px){
+    .banner{
+        background-size: 400%, 50%, 50%;
+    }
+
+    .banner .container{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner .container .banner-caption a{
+        font-size: 16px;
+    }
+
+    .banner .container .banner-img{
+        margin-top: 20px;
+    }
+
+    .keunggulan{
+        background-image: none;
+    }
+
+    .keunggulan .container .judul{
+        text-align: center;
+    }
+
+    .keunggulan .container .isi{
+        flex-direction: column;
+    }
+
+    .keunggulan .container .isi .content{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px 10px;
+    }
+
+    .keunggulan .container .judul h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .keunggulan .container .judul h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .keunggulan .container .content{
+        margin: 20px 0;
+    }
+
+    .keunggulan .container .content img{
+        width: 50px;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tentang{
+        padding: 100px 10px;
+    }
+
+    .tentang .container{
+        flex-direction: column;
+    }
+
+    .tentang .container .tentang-caption{
+        margin-left: 0;
+    }
+
+    .tentang .container .tentang-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .tentang .container .tentang-caption p{
+        text-align: justify;
+    }
     
+    .galeri{
+        height: 1400px;
+        background: rgba(233, 239, 255, 0.8);
+        background-repeat: no-repeat;
+    }
+    
+    .galeri .container{
+        padding: 10px;
+    }
+
+    .galeri .container h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .galeri .container h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .galeri .container .content{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galeri .container .content .card-box{
+        width: 12rem;
+    }
+
+    .artikel{
+        padding: 50px 10px;
+    }
+
+    .artikel .container .artikel-caption p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .artikel .container .artikel-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .banner{
+        height: 700px;
+        background-size: 150%, 30%, 50%;
+    }
     
+    .banner .container img{
+        width: 80%;
+    }
+
+    .banner .container{
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .banner .container .banner-caption a{
+        font-size: 16px;
+    }
+
+    .banner .container .banner-img{
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    .keunggulan{
+        background-image: none;
+    }
+
+    .keunggulan .container .judul{
+        text-align: center;
+    }
+
+    .keunggulan .container .isi .content{
+        margin: 20px 10px;
+    }
+
+    .keunggulan .container .judul h5{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .judul h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .keunggulan .container .content{
+        margin: 20px 0;
+    }
+
+    .keunggulan .container .content img{
+        width: 50px;
+    }
+
+    .keunggulan .container .content h3{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .keunggulan .container .content p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .tentang{
+        padding: 100px 10px;
+    }
+
+    .tentang .container{
+        flex-direction: column;
+    }
+
+    .tentang .container .tentang-caption{
+        margin-left: 0;
+    }
+
+    .tentang .container .tentang-caption h2{
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .tentang .container .tentang-caption p{
+        text-align: justify;
+    }
+    
+    .galeri{
+        height: 550px;
+        background: rgba(233, 239, 255, 0.8);
+        background-repeat: no-repeat;
+    }
+    
+    .galeri .container{
+        padding: 30px 10px;
+    }
+
+    .galeri .container h1{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .galeri .container h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .galeri .container .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .galeri .container .content .card-box{
+        width: 12rem;
+        margin: 20px 10px;
+    }
+
+    .artikel{
+        padding: 50px 10px;
+    }
+
+    .artikel .container .artikel-caption p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .artikel .container .artikel-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
 }
