@@ -56,7 +56,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .banner .container .banner-caption h2{
