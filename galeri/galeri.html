@@ -25,7 +25,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"><img style="height: 40px;" src="../images/logo.png" alt=""> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,62 +75,99 @@
             <h2>Dokumentasi Sekolah</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal1.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Ruang Kelas</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal2.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Halaman Sekolah</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal3.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Lorong Sekolah</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal4.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Belajar Mengajar</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal5.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Kelas Bahasa Inggris</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal6.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Karya Murid</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal7.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Lomba Tarik Tambang</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal8.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Pameran Teknologi</h5>
+                    </div>
                   </div>
-                </div><div class="col">
-                  <div class="cardg">
+                </div>
+                <div class="col">
+                  <div class="card">
                     <img src="../images/gal9.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Belajar Menggambar</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card>
                     <img src="../images/gal10.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Tugas Kelompok</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal11.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Belajar dan Bermain</h5>
+                    </div>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="cardg">
+                  <div class="card">
                     <img src="../images/gal12.png" class="card-img-top" alt="...">
+                    <div class="info">
+                        <h5>Tamasya Sekolah</h5>
+                    </div>
                   </div>
                 </div>
             </div>
@@ -159,7 +196,7 @@
                     <a href="../tentang/tentang.html"> Tentang Kami</a>
                     <a href="../kontak/kontak.html"> Hubungi Kami</a>
                 </div>
-                <div class="ikuti col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                <div class="ikuti col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                     <h4 class="mb-4">Ikuti Kami</h4>
                     <a href="#" class="bi-facebook"> <span>namasekolah</span></a>
                     <a href="#" class="bi-twitter"> <span>namasekolah</span></a>
@@ -175,5 +212,16 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const navbar = document.getElementsByTagName('nav')[0];
+        window.addEventListener('scroll', function(){
+          console.log(window.scrollY);
+          if (this.window.scrollY > 1) {
+            navbar.classList.replace('bg-transparent', 'nav-color');
+          } else if (this.window.scrollY <= 0) {
+            navbar.classList.replace('nav-color', 'bg-transparent')
+          }
+        });
+    </script>
 </body>
 </html>
