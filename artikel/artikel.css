@@ -18,8 +18,13 @@ body{
     border-radius: 30px;
 }
 
-.navbar{
+.bg-transparent{
+    transition: all ease-in 0.3s;
+}
+
+.nav-color{
     background-color: #734192;
+    transition: all ease-in-out 0.5s;
 }
 
 .navbar-toggler {
