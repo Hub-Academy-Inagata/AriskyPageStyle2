@@ -111,7 +111,7 @@ footer{
 }
 
 .footer1 .container .row h4{
-    font-family: 'Poppins';
+    font-family: rounded bold;
     color: #1C2661;
     font-weight: 600;
 }
