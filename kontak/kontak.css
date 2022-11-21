@@ -18,8 +18,13 @@ body{
     border-radius: 30px;
 }
 
-.navbar{
+.bg-transparent{
+    transition: all ease-in 0.3s;
+}
+
+.nav-color{
     background-color: #734192;
+    transition: all ease-in-out 0.5s;
 }
 
 .navbar-toggler {
@@ -251,13 +256,69 @@ footer{
 
 
 
-
+/* media queries */
 @media only screen and (max-width: 767px){
+    .banner{
+        height: 800px;
+        background-image: url(../images/banner-dasar.png), url(../images/ban-ktk1.png), url(../images/ban-ktk2.png);
+        background-position: top center, top right, top right;
+        background-repeat: no-repeat;
+        background-size: 400%, 50%, 50%;
+    }
+
+    .banner .container{
+        padding-top: 100px;
+        flex-direction: column;
+    }
+
+    .kontak{
+        padding: 300px 0 100px 0;
+    }
+
+    .kontak .container h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .kontak .container h5{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .kontak .container .row{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
     
+    .kontak .container .row .detail .telp .gambar-telp img{
+        width: 50px
+    }
+    
+    .kontak .container .row .detail .telp .text-telp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kontak .container .row .detail .email .gambar-email img{
+        width: 50px
+    }
+    
+    .kontak .container .row .detail .lokasi .gambar-lokasi img{
+        width: 50px
+    }
 }
 
-
-
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    
+    .banner .container{
+        padding-top: 100px;
+    }
+
+    .banner .container img{
+        width: 80%;
+    }
+
+    .kontak .container h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
 }
