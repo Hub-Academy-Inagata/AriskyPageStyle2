@@ -23,7 +23,7 @@ body{
 }
 
 .nav-color{
-    background-color: #734192;
+    background-color: #734192 !important;
     transition: all ease-in-out 0.5s;
 }
 
@@ -296,6 +296,10 @@ footer{
 
 /* media queries */
 @media only screen and (max-width: 767px){
+    .navbar-collapse{
+        background: #734192;
+    }
+
     .banner{
         background-image: url(../images/banner-dasar.png), url(../images/ban-art1.png), url(../images/ban-art2.png);
         background-position: top center, top right, top right;
@@ -359,6 +363,10 @@ footer{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-collapse{
+        background: #734192;
+    }
+
     .banner{
         height: 500px;
         background-image: url(../images/banner-dasar.png), url(../images/ban-art1.png), url(../images/ban-art2.png);
