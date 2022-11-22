@@ -27,7 +27,7 @@ body{
 }
 
 .nav-color{
-    background-color: #734192;
+    background-color: #734192 !important;
     transition: all ease-in-out 0.5s;
 }
 
@@ -230,8 +230,14 @@ body{
     letter-spacing: 1px;
 }
 
+.galeri .container .content .card-box img{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+}
+
 .galeri .container .content .card-box img:hover{
     transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
 }
 
 .galeri .container .content .card-box .card-body{
@@ -289,8 +295,14 @@ body{
     margin: 10px;
 }
 
+.artikel .container .row .carda img{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 24px;
+}
+
 .artikel .container .row .carda img:hover{
     transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
 }
 
 .artikel .container .row .carda .card-body h5{
