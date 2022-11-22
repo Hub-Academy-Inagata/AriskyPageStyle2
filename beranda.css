@@ -404,6 +404,10 @@ footer{
 
 /* media queries */
 @media only screen and (max-width: 767px){
+    .navbar-collapse{
+        background: #734192;
+    }
+
     .banner{
         background-size: 400%, 50%, 50%;
     }
@@ -548,6 +552,10 @@ footer{
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
+    .navbar-collapse{
+        background: #734192;
+    }
+
     .banner{
         height: 700px;
         background-size: 150%, 50%, 50%;
