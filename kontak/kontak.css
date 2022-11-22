@@ -23,7 +23,7 @@ body{
 }
 
 .nav-color{
-    background-color: #734192;
+    background-color: #734192 !important;
     transition: all ease-in-out 0.5s;
 }
 
