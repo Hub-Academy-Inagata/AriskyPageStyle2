@@ -378,5 +378,15 @@ footer{
     .banner .container img{
         width: 80%;
     }
+
+    .banner .container .banner-caption h2{
+        font-size: 36px;
+        line-height: 36px;
+    }
+
+    .banner .container .banner-caption p{
+        font-size: 16px;
+        line-height: 20px;
+    }
 }
 
