@@ -210,6 +210,7 @@ body{
 }
 
 .galeri .container .card-box{
+    width: 20rem;
     margin: 20px 30px;
 }
 
