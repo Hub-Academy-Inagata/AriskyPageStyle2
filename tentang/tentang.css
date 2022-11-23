@@ -23,11 +23,10 @@ body{
 }
 
 .btn:hover{
-	-webkit-animation: jello-horizontal 0.9s both;
+-webkit-animation: jello-horizontal 0.9s both;
     animation: jello-horizontal 0.9s both;
 }
 
-/* revisi3 */
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
